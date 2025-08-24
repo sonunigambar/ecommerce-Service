@@ -17,3 +17,5 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
+      - name: Analyze with SonarCloud
+        run: mvn clean verify sonar:sonar -Dsonar.token=${{ secrets.SONAR_TOKEN }}
