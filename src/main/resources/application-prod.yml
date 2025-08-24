@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:mysql://database-1.cdmqc8e6ui91.ap-southeast-2.rds.amazonaws.com:3306/myprodDB
+    username: admin
+    password: Sonu#1234
